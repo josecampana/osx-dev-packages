@@ -1,3 +1,4 @@
+log_debug() { printf "\033[1;36m[DEBUG]\033[0m %s\n" "$*"; }
 log_info()  { printf "\033[1;34m[INFO]\033[0m %s\n" "$*"; }
 log_warn()  { printf "\033[1;33m[WARN]\033[0m %s\n" "$*"; }
 log_error() { printf "\033[1;31m[ERROR]\033[0m %s\n" "$*"; }
