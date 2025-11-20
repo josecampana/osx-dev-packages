@@ -10,27 +10,10 @@ This project provides an interactive menu to install and configure development t
 
 ## Usage
 
-Clone this repository:
+Type:
 
 ```bash
-  git clone git@github.com:josecampana/dev-packages.git
-```
-
-And run the installer:
-
-```bash
-cd dev-packages
-./install.sh
-```
-
-### Problems with permissions?
-
-Try this:
-
-```bash
-chmod 755 install.sh
-chmod 755 lib/common.sh
-chmod 755 packages/*.sh
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/tuusuario/osx-dev-packages/main/bootstrap.sh)"
 ```
 
 ## Disclaimer
